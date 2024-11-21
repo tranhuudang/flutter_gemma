@@ -121,7 +121,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.3.1"
+    version: "0.4.1"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -169,10 +169,11 @@ packages:
   large_file_handler:
     dependency: transitive
     description:
-      name: large_file_handler
-      sha256: b2801421faa3b47a07464a63a812fcf979ea62c65f7c4e9538aaf1d34b0cabac
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "98e47c1fb7f3c6326600402379dbab082774244f"
+      url: "https://github.com/tranhuudang/large_file_handler"
+    source: git
     version: "0.3.0"
   leak_tracker:
     dependency: transitive
@@ -258,10 +259,10 @@ packages:
     dependency: transitive
     description:
       name: path_provider
-      sha256: fec0d61223fba3154d87759e3cc27fe2c8dc498f6386c6d6fc80d1afdd1bf378
+      sha256: "50c5dd5b6e1aaf6fb3a78b33f6aa3afca52bf903a8a5298f53101fdaee55bbcd"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.4"
+    version: "2.1.5"
   path_provider_android:
     dependency: transitive
     description:
@@ -428,5 +429,5 @@ packages:
     source: hosted
     version: "1.0.4"
 sdks:
-  dart: ">=3.5.3 <4.0.0"
+  dart: ">=3.5.0 <4.0.0"
   flutter: ">=3.22.0"
